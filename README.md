@@ -18,6 +18,12 @@ If you find the code useful in your research, please consider citing:
 - Tensorboard
 
 ### Training
+
+Prepare dataset: 
+"""
+./upload_dataset.sh
+
+"""
 To train the model, run 
 
 '''
