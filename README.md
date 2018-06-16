@@ -20,24 +20,24 @@ If you find the code useful in your research, please consider citing:
 ### Training
 
 Prepare dataset: 
-"""
+
 ./upload_dataset.sh
 
-"""
+
 To train the model, run 
 
-'''
+
 python train.py
-'''
+
 
 Check the argument list to set hyperparatmers and paths.
 
 ### Test
 To test, run
 
-'''
+
 python test.py
-'''
+
 
 I am getting accracy of 20.2% with Alexnet as encoder. If you can experiment with Resnet and other variants, please send a pull request. 
 
