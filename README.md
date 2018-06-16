@@ -33,5 +33,6 @@ To test, run
 python test.py
 '''
 
+I am getting accracy of 20.2% with Alexnet as encoder. If you can experiment with Resnet and other variants, please send a pull request. 
 
 This implementation is based on original lua implementation which can be found at [https://github.com/allenai/forces/](https://github.com/allenai/forces/)
