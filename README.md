@@ -21,13 +21,13 @@ If you find the code useful in your research, please consider citing:
 
 Prepare dataset: 
 
-./upload_dataset.sh
+`./upload_dataset.sh`
 
 
 To train the model, run 
 
 
-python train.py
+`python train.py`
 
 
 Check the argument list to set hyperparatmers and paths.
@@ -36,9 +36,9 @@ Check the argument list to set hyperparatmers and paths.
 To test, run
 
 
-python test.py
+`python test.py`
 
 
-I am getting accracy of 20.2% with Alexnet as encoder. If you can experiment with Resnet and other variants, please send a pull request. 
+I am getting accracy of `20.2%` with Alexnet as encoder. If you can experiment with Resnet and other variants, please send a pull request. 
 
 This implementation is based on original lua implementation which can be found at [https://github.com/allenai/forces/](https://github.com/allenai/forces/)
